@@ -1,0 +1,11 @@
+# Bracket batch: 40 mild-steel brackets plus a few stub-welded gussets
+job name="Bracket batch 40" currency=GBP
+labour rate=55.00
+gas cylinder=9000 flow=14 price=145.00
+
+stock MIG pack_kg=15 price=38.50
+stock STICK pack_kg=2.5 price=16.00
+
+joint J1 fillet leg=6 length=1.2 passes=1 process=MIG qty=40 handling=2
+joint J2 fillet leg=8 length=0.6 passes=2 process=MIG qty=40 handling=2
+joint J3 groove area=24 length=0.3 passes=1 process=STICK qty=10 handling=4
